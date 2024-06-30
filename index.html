@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-slate-900">
+    <section class="bg-[url(./images/p2.jpg)] bg-no-repeat bg-cover" id="home">
+      <header class="sticky top-0 bg-black shadow z-10">
+        <nav
+          class="max-w-[1300px] w-[100%] h-[100%] mx-auto flex items-center justify-between font-[550] text-white"
+        >
+          <div class="navbrand">
+            <a href="#"
+              ><img width="100px" src="images/brand logo.jpeg" alt="Brand logo"
+            /></a>
+          </div>
+          <ul class="hidden sm:flex space-x-4">
+            <li>
+              <a href="#home" class="hover:text-yellow-600">Home</a>
+            </li>
+            <li>
+              <a href="#About" class="hover:text-yellow-600">About Us</a>
+            </li>
+            <li>
+              <a href="#Services" class="hover:text-yellow-600">Services</a>
+            </li>
+            <li>
+              <a href="#Portfolio" class="hover:text-yellow-600">Portfolio</a>
+            </li>
+            <li>
+              <a href="#Contact Us" class="hover:text-yellow-600">Contact Us</a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-bars sm:hidden"></i>
+        </nav>
+      </header>
+      <div class="w-full">
+        <div
+          class="max-w-[1300px] w-[100%] mx-auto items-center justify-between sm:p-[300px]"
+        >
+          <div
+            class="flex flex-col items-start justify-center space-y-2 sm:w-[100%] py-4 px-4"
+          >
+            <p class="font-[500] text-[25px]">Hi There i'm</p>
+            <h2 class="font-[600] text-[30px]">Idun Chiamaka</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full pt-[50px]" id="About">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-between text-white"
+      >
+        <img
+          class="w-full h-50 object-cover"
+          src="images/Snapchat-602230353.jpg"
+          alt="profile image"
+        />
+        <div>
+          <h2 class="font-bold text-[40px]">Idun Chiamaka</h2>
+          <h5 class="font-medium">
+            A starting
+            <span class="text-yellow-700">Software developer</span> based in
+            <span class="text-yellow-700">Nigeria</span>
+          </h5>
+          <p class="pt-5">
+            I'm a passionate Web Developer with [X] years of experience in
+            creating dynamic, user-friendly websites and applications. My
+            expertise lies in front-end development, but I also have a solid
+            background in back-end technologies. I thrive in collaborative
+            environments and enjoy turning complex problems into elegant digital
+            solutions.
+          </p>
+          <div class="pt-[90px]">
+            <ul class="font-semibold text-[30px]">
+              <li>Birthday : 18th July</li>
+              <li>E-mail : idunchiamaka@gmail.com</li>
+              <li>Phone : 08153098694</li>
+              <li>Residence: Lagos</li>
+              <li>Freelance: Availiable</li>
+            </ul>
+          </div>
+          <button
+            type="button"
+            class="w-full bg-yellow-600 text-white p-3 shadow hover:bg-yellow-950"
+          >
+            DOWNLOAD CV
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="Portfolio" class="bg-gray-200 py-20 mt-6">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold">Skills</h2>
+        <div
+          class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+        >
+          <div class="bg-white p-4 shadow rounded-lg">HTML</div>
+          <div class="bg-white p-4 shadow rounded-lg">CSS</div>
+          <div class="bg-white p-4 shadow rounded-lg">JavaScript</div>
+          <div class="bg-white p-4 shadow rounded-lg">React</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Services" class="py-20">
+      <div class="text-white justify-between">
+        <h1 class="font-extrabold text-[40px] text-center">My Services</h1>
+        <p class="font-medium text-[20px] pt-2 text-center">
+          I design and develop services for customers of all sizes, specializing
+          in creating stylish, modern websites, web services and online stores.
+        </p>
+      </div>
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold">Projects</h2>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <div class="bg-white p-4 shadow rounded-lg">
+            <img
+              src="./images/p3.png"
+              alt="Project 1"
+              class="w-full h-48 object-cover rounded-lg"
+            />
+            <h3 class="mt-4 text-xl font-semibold">Project</h3>
+            <p class="mt-2 text-gray-600">Bussiness website.</p>
+          </div>
+          <div class="bg-white p-4 shadow rounded-lg">
+            <img
+              src="./images/p4.png"
+              alt="Project 2"
+              class="w-full h-48 object-cover rounded-lg"
+            />
+            <h3 class="mt-4 text-xl font-semibold">Project</h3>
+            <p class="mt-2 text-gray-600">Online merch store.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact Us" class="bg-slate-500 text-white py-20">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold">Contact Me</h2>
+        <p class="mt-4">
+          Feel free to reach out to me via email at
+          <a
+            href="mailto:your-email@example.com"
+            class="text-gray-100 underline"
+            >idunchiamaka@gmail.com</a
+          >.
+        </p>
+        <form class="mt-8 space-y-4 max-w-md mx-auto">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full p-3 rounded-lg shadow text-gray-800"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-3 rounded-lg shadow text-gray-800"
+          />
+          <textarea
+            placeholder="Your Message"
+            class="w-full p-3 rounded-lg shadow text-gray-800"
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full bg-white text-blue-500 p-3 rounded-lg shadow hover:bg-gray-200"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 text-center py-4">
+      <div class="container mx-auto">
+        <div class="mb-4">
+          <a
+            href="https://www.linkedin.com/in/yourprofile"
+            class="mx-2 text-gray-400 hover:text-blue-500"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            href="https://github.com/yourprofile"
+            class="mx-2 text-gray-400 hover:text-gray-100"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a
+            href="https://twitter.com/yourprofile"
+            class="mx-2 text-gray-400 hover:text-blue-400"
+            aria-label="Twitter"
+          >
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a
+            href="https://facebook.com/yourprofile"
+            class="mx-2 text-gray-400 hover:text-blue-600"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a
+            href="https://instagram.com/yourprofile"
+            class="mx-2 text-gray-400 hover:text-pink-500"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+        <p>&copy; 2024 CodeHub. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
